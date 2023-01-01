@@ -1,0 +1,29 @@
+body {
+		background-image: url('images/banana-bg.png'); 
+	}
+
+/*Mobiles, iPads, Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	
+}
+
+/*Small screens, laptops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	body {
+
+	}
+}
+
+/* Desktops, large screens */
+@media only screen and (min-width: 1025px) {
+	body {
+		background-image: none;
+	}
+}
+
+/* Extra large screens,  */
+@media only screen and (min-width: 1201px) {
+	body {
+
+	}
+}
