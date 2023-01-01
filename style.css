@@ -1,6 +1,23 @@
 body {
 		background-image: url('banana-bg.png'); 
+		font-family: "Comic Sans MS", "Comic Sans", cursive;
 	}
+
+
+.logo {
+
+}
+
+.logo-content {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	gap: 10px;
+}
+
+.logo-content > div {
+	background-color: #f2df07;
+	padding: 10px;
+}
 
 /*Mobiles, iPads, Tablets*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
