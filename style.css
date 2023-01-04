@@ -56,10 +56,10 @@ body {
 		grid-template: 125px / auto auto auto;
 		grid-row-gap: 30px;
 		padding: 10px;
-		opacity: 60%;
 	}
 
 	.grid-container > div {
+		padding: 20px;
 		text-align: center;
 	}
 
