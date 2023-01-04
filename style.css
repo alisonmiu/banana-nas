@@ -2,6 +2,10 @@ body {
 		background-image: url('banana-bg.png'); 
 	}
 
+.logo {
+		float: left;
+}
+
 .slogan {
   		border: 3px solid black;
   		padding:10px;
