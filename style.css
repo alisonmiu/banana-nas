@@ -4,13 +4,8 @@ body {
 	}
 
 
-.logo {
-
-}
-
 .logo-content {
 	display: grid;
-	grid-template-rows: auto auto auto;
 	gap: 10px;
 }
 
@@ -19,9 +14,43 @@ body {
 	padding: 10px;
 }
 
+.main-content {
+	margin-top: 20px;
+}
+
+
 /*Mobiles, iPads, Tablets*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-	
+	.grid-container {
+		display: grid;
+		grid-template: 125px / auto auto auto;
+		grid-row-gap: 30px;
+		background-color: #f2df07;
+		padding: 10px;
+		opacity: 60%;
+	}
+
+	.grid-container > div {
+		padding: 20px;
+		text-align: center;
+	}
+
+	.overlay {
+		border-radius: 50%;
+		position: relative;
+		top: 0;
+		bottom: 0;
+	  	left: 0;
+		right: 0;
+		opacity: 0;
+		transition: .5s ease;
+		background-color: #008CBA;
+	}
+
+.banana:hover .overlay {
+		opacity: 5;
+	}
+
 }
 
 /*Small screens, laptops*/
