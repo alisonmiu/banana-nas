@@ -63,20 +63,16 @@ body {
 		text-align: center;
 	}
 
-	.overlay {
+	.banana-type {
+		border: 1px solid black;
 		border-radius: 50%;
 		position: relative;
-		top: 0;
-		bottom: 0;
-	  	left: 0;
-		right: 0;
-		opacity: 0;
+		opacity: 20%;
 		transition: .5s ease;
-		background-color: #008CBA;
 	}
 
-.banana:hover .overlay {
-		opacity: 5;
+	banana:hover .banana-type {
+		opacity: 100%;
 	}
 
 
