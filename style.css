@@ -2,19 +2,20 @@ body {
 		background-image: url('banana-bg.png'); 
 	}
 
-
-.logo-content {
-	display: grid;
-	gap: 10px;
+.slogan {
+  		border: 3px solid black;
+  		padding:10px;
+  		float: right;
 }
 
-.logo-content > div {
-	background-color: #f2df07;
-	padding: 10px;
+.sub-statement {
+  		margin-top: 20px;
+  		padding: 10px;
+  		background-color: #f2df07;
 }
 
 .main-content {
-	margin-top: 20px;
+		margin-top: 20px;
 }
 
 .grid-container {
