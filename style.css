@@ -1,21 +1,21 @@
 body {
-		background-image: url('banana-bg.png'); 
+	background-image: url('banana-bg.png'); 
 	}
 
 .logo {
-		float: left;
-		padding: 10px;
-		width: 7em;
-		margin-top: 0.5em;
+	float: left;
+	padding: 10px;
+	width: 7em;
+	margin-top: 0.5em;
 }
 
 .slogan {
-  		border: 3px solid black;
-  		padding:10px;
-  		float: right;
-  		margin: 0.5em 0 30px 0;
-  		border: 1px solid black;
-  		border-radius: 1.5em;
+  	border: 3px solid black;
+  	padding:10px;
+  	float: right;
+  	margin: 0.5em 0 30px 0;
+  	border: 1px solid black;
+  	border-radius: 1.5em;
 }
 
 .animation {
@@ -55,7 +55,6 @@ body {
 		display: grid;
 		grid-template: 125px / auto auto auto;
 		grid-row-gap: 30px;
-		background-color: #f2df07;
 		padding: 10px;
 		opacity: 60%;
 	}
