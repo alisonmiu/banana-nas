@@ -55,10 +55,11 @@ body {
 		grid-template: 125px / auto auto auto;
 		grid-row-gap: 30px;
 		padding: 10px;
+		margin-left: 45px;
+		margin-right: 45px;
 	}
 
 	.grid-container > div {
-		padding: 20px;
 		text-align: center;
 	}
 
