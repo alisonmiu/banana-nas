@@ -1,5 +1,7 @@
 body {
-	background-image: url('banana-bg.png'); 
+	background-image: url('banana-bg.png');
+	margin-left: auto;
+	margin-right: auto;
 	}
 
 .logo {
